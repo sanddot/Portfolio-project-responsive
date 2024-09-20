@@ -1,4 +1,55 @@
-h1 {
+:root {
+  --accent-color: #6a869c;
+  --hero-color: linear-gradient(to right, #faf6f2 0%, #9eb8cc 100%);
+  --secondary-color: #f2f9ff;
+  --heading-font-family: "Playfair Display", system-ui;
+  --default-font-family: "Montserrat", system-ui;
+  --default-font-familys: "Poppins", sans-serif;
+}
+body {
+  font-family: var(--default-font-family);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Playfair Display", system-ui;
-  font-size: 65px;
+  font-weight: 500;
+  color: black;
+}
+.hero {
+  background: var(--hero-color);
+  text-align: center;
+  padding: 140px 20px;
+}
+.hero h1 {
+  font-size: 86px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.hero h2 {
+  font-family: var(--default-font-family);
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.hero p {
+  color: #272142;
+  font-size: 24px;
+  font-weight: 400;
+}
+.btn-accent {
+  background-color: var(--accent-color);
+  color: white;
+  border-radius: 4px;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 27px;
+  padding: 18px 30px;
+}
+.btn-accent:hover {
+  background-color: var(--accent-color);
+  color: black;
 }
