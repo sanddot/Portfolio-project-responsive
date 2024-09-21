@@ -44,7 +44,7 @@ h6 {
   background-color: var(--accent-color);
   color: white;
   border-radius: 4px;
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 27px;
   padding: 18px 30px;
@@ -52,4 +52,40 @@ h6 {
 .btn-accent:hover {
   background-color: var(--accent-color);
   color: black;
+}
+.introduction-paragraphs {
+  margin: 60px 20px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.project-wrapper {
+  margin: 30px 20px 0 20px;
+}
+h2 {
+  font-size: 64px;
+  font-weight: 700;
+}
+.project-paragraphs {
+  font-size: 16px;
+  line-height: 1.8;
+  opacity: 0.8;
+}
+.btn-projects {
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+  color: black;
+  background-color: var(--secondary-color);
+  font-size: 16px;
+  line-height: 27px;
+  padding: 18px 30px;
+}
+.btn-projects:hover {
+  background-color: var(--accent-color);
+  color: white;
+}
+img {
+  padding: 100px 20px;
+  background: linear-gradient(to right, #fffcfa 0%, #f5faff 100%);
+  border-radius: 4px;
 }
