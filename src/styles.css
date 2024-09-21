@@ -4,7 +4,6 @@
   --secondary-color: #f2f9ff;
   --heading-font-family: "Playfair Display", system-ui;
   --default-font-family: "Montserrat", system-ui;
-  --default-font-familys: "Poppins", sans-serif;
 }
 body {
   font-family: var(--default-font-family);
@@ -83,9 +82,31 @@ h2 {
 .btn-projects:hover {
   background-color: var(--accent-color);
   color: white;
+  font-weight: 500;
 }
 img {
   padding: 100px 20px;
   background: linear-gradient(to right, #fffcfa 0%, #f5faff 100%);
   border-radius: 4px;
+}
+@media (max-width: 576px) {
+  .hero {
+    padding: 60px 30px;
+  }
+  .hero h1 {
+    font-size: 55px;
+  }
+  .hero h2 {
+    font-size: 26px;
+  }
+  h2 {
+    font-size: 50px;
+  }
+  .introduction-paragraphs {
+    margin: 20px;
+  }
+  .project-wrapper {
+    text-align: center;
+    margin: 10px;
+  }
 }
