@@ -18,6 +18,10 @@ h6 {
   font-weight: 500;
   color: black;
 }
+h2 {
+  font-size: 64px;
+  font-weight: 700;
+}
 .hero {
   background: var(--hero-color);
   text-align: center;
@@ -52,6 +56,26 @@ h6 {
   background-color: var(--accent-color);
   color: black;
 }
+.about-section {
+  padding: 140px 20px;
+}
+.about-section h1 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 75px;
+}
+.about-section h2 {
+  color: #272142;
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.about-section p {
+  color: #272142;
+  font-size: 16px;
+  line-height: 30px;
+  opacity: 0.8;
+}
+
 .introduction-paragraphs {
   margin: 60px 20px;
   font-size: 18px;
@@ -60,10 +84,6 @@ h6 {
 }
 .project-wrapper {
   margin: 30px 20px 0 20px;
-}
-h2 {
-  font-size: 64px;
-  font-weight: 700;
 }
 .project-paragraphs {
   font-size: 16px;
@@ -91,7 +111,7 @@ img {
 }
 @media (max-width: 576px) {
   .hero {
-    padding: 60px 30px;
+    padding: 60px 20px;
   }
   .hero h1 {
     font-size: 55px;
@@ -108,5 +128,13 @@ img {
   .project-wrapper {
     text-align: center;
     margin: 10px;
+  }
+  .about-section {
+    text-align: center;
+    padding: 60px 20px;
+  }
+  .about-section h1 {
+    font-size: 50px;
+    line-height: 65px;
   }
 }
