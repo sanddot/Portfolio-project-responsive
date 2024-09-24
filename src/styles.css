@@ -56,26 +56,32 @@ h2 {
   background-color: var(--accent-color);
   color: black;
 }
-.about-section {
+.main-section {
   padding: 140px 20px;
 }
-.about-section h1 {
+.main-section h1 {
   font-size: 60px;
   font-weight: 700;
   line-height: 75px;
 }
-.about-section h2 {
+.main-section h2 {
   color: #272142;
   font-size: 18px;
   font-family: var(--default-font-family);
 }
-.about-section p {
+.main-section h3 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-top: 10px;
+}
+.main-section p {
   color: #272142;
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 14px;
+  line-height: 21px;
   opacity: 0.8;
 }
-
 .introduction-paragraphs {
   margin: 60px 20px;
   font-size: 18px;
@@ -86,6 +92,7 @@ h2 {
   margin: 30px 20px 0 20px;
 }
 .project-paragraphs {
+  color: #272142;
   font-size: 16px;
   line-height: 1.8;
   opacity: 0.8;
@@ -105,9 +112,21 @@ h2 {
   font-weight: 500;
 }
 img {
-  padding: 100px 20px;
+  padding: 60px 20px;
   background: linear-gradient(to right, #fffcfa 0%, #f5faff 100%);
   border-radius: 4px;
+}
+.image-wrapper-first-row {
+  position: relative;
+  padding-bottom: 100%;
+  overflow: hidden;
+}
+.image-wrapper-first-row img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 @media (max-width: 576px) {
   .hero {
@@ -129,12 +148,12 @@ img {
     text-align: center;
     margin: 10px;
   }
-  .about-section {
+  .main-section {
     text-align: center;
     padding: 60px 20px;
   }
-  .about-section h1 {
-    font-size: 50px;
-    line-height: 65px;
+  .main-section h1 {
+    font-size: 48px;
+    line-height: 62px;
   }
 }
