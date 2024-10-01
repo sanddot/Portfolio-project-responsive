@@ -22,10 +22,45 @@ h2 {
   font-size: 64px;
   font-weight: 700;
 }
+nav {
+  padding: 15px;
+}
+nav h2 a {
+  color: white;
+  text-shadow: 3px 2px 3px var(--accent-color);
+  padding: 13px;
+  margin: 0;
+  box-shadow: inset 0 -3px 3px var(--secondary-color),
+    0 -4px 4px var(--secondary-color);
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 30px;
+  margin-left: 15px;
+}
+nav a {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+nav a:hover,
+nav li.active a {
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+hr {
+  color: var(--accent-color);
+  margin-top: 5px;
+}
 .hero {
   background: var(--hero-color);
   text-align: center;
-  padding: 140px 20px;
+  padding: 100px 20px;
 }
 .hero h1 {
   font-size: 86px;
@@ -57,10 +92,10 @@ h2 {
   color: black;
 }
 .main-section {
-  padding: 140px 20px;
+  padding: 60px 20px;
 }
 .main-section h1 {
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 700;
   line-height: 75px;
 }
@@ -128,7 +163,16 @@ img {
   width: 100%;
   height: 100%;
 }
-@media (max-width: 576px) {
+@media (max-width: 768px) {
+  nav {
+    padding: 10px;
+  }
+  nav a {
+    font-size: 12px;
+  }
+  nav h2 a {
+    font-size: 35px;
+  }
   .hero {
     padding: 60px 20px;
   }
@@ -150,10 +194,10 @@ img {
   }
   .main-section {
     text-align: center;
-    padding: 60px 20px;
+    padding: 30px 20px;
   }
   .main-section h1 {
-    font-size: 48px;
+    font-size: 45px;
     line-height: 62px;
   }
 }
