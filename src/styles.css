@@ -23,15 +23,16 @@ h2 {
   font-weight: 700;
 }
 nav {
-  padding: 15px;
+  padding: 7px;
 }
 nav h2 a {
   color: white;
-  text-shadow: 3px 2px 3px var(--accent-color);
-  padding: 13px;
+  font-size: 38px;
+  text-shadow: 3px 1px 2px var(--accent-color);
+  padding: 10px;
   margin: 0;
   box-shadow: inset 0 -3px 3px var(--secondary-color),
-    0 -4px 4px var(--secondary-color);
+    0 -3px 4px var(--secondary-color);
 }
 nav ul {
   padding: 0;
@@ -51,7 +52,6 @@ nav a {
 nav a:hover,
 nav li.active a {
   color: #272142;
-  transition: all 100ms ease-in-out;
 }
 hr {
   color: var(--accent-color);
@@ -60,7 +60,7 @@ hr {
 .hero {
   background: var(--hero-color);
   text-align: center;
-  padding: 100px 20px;
+  padding: 80px 20px;
 }
 .hero h1 {
   font-size: 86px;
@@ -86,13 +86,14 @@ hr {
   font-weight: 500;
   line-height: 27px;
   padding: 18px 30px;
+  transition: all 100ms ease-in-out;
 }
 .btn-accent:hover {
   background-color: var(--accent-color);
   color: black;
 }
 .main-section {
-  padding: 60px 20px;
+  padding: 50px 20px;
 }
 .main-section h1 {
   font-size: 55px;
@@ -140,6 +141,7 @@ hr {
   font-size: 16px;
   line-height: 27px;
   padding: 18px 30px;
+  transition: all 100ms ease-in-out;
 }
 .btn-projects:hover {
   background-color: var(--accent-color);
@@ -147,7 +149,7 @@ hr {
   font-weight: 500;
 }
 img {
-  padding: 60px 20px;
+  padding: 50px 20px;
   background: linear-gradient(to right, #fffcfa 0%, #f5faff 100%);
   border-radius: 4px;
 }
@@ -162,6 +164,55 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
+}
+footer {
+  margin-top: 40px;
+}
+footer h4 {
+  font-size: 42px;
+}
+footer .contact-box {
+  background: var(--hero-color);
+  padding: 20px 20px;
+  border-radius: 5px;
+}
+footer .contact-box .work-inquiry-wrapper {
+  padding-left: 80px;
+}
+footer .email-link {
+  text-decoration: none;
+  color: #272142;
+  font-size: 18px;
+  font-weight: 500;
+  transition: all 100ms ease-in-out;
+}
+footer .email-link:hover {
+  color: white;
+}
+footer .social-link {
+  padding: 20px;
+  line-height: 40px;
+}
+footer .social-link .icon {
+  padding: 10px 14px;
+  font-size: 18px;
+  line-height: 50px;
+  color: var(--accent-color);
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-link .icon:hover {
+  background: var(--hero-color);
+  color: white;
+}
+footer .social-link .github-link {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+footer .social-link .github-link:hover {
+  color: blue;
 }
 @media (max-width: 768px) {
   nav {
@@ -199,5 +250,17 @@ img {
   .main-section h1 {
     font-size: 45px;
     line-height: 62px;
+  }
+  footer .contact-box {
+    text-align: center;
+  }
+  footer h4 {
+    font-size: 35px;
+  }
+  footer .contact-box .work-inquiry-wrapper {
+    padding-left: 0;
+  }
+  footer .social-link {
+    padding: 20px 40px;
   }
 }
