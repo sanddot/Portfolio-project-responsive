@@ -221,14 +221,17 @@ footer .social-link .github-link:hover {
   nav a {
     font-size: 12px;
   }
+  nav li {
+    margin-left: 10px;
+  }
   nav h2 a {
-    font-size: 35px;
+    font-size: 32px;
   }
   .hero {
     padding: 60px 20px;
   }
   .hero h1 {
-    font-size: 55px;
+    font-size: 48px;
   }
   .hero h2 {
     font-size: 26px;
