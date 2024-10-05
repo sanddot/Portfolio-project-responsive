@@ -110,12 +110,14 @@ hr {
   font-size: 24px;
   font-weight: 700;
   line-height: 32px;
-  margin-top: 10px;
+  margin-top: 15px;
 }
+
 .main-section p {
   color: #272142;
   font-size: 14px;
   line-height: 21px;
+  margin-top: 10px;
   opacity: 0.8;
 }
 .introduction-paragraphs {
@@ -191,6 +193,7 @@ footer .email-link:hover {
 }
 footer .social-link {
   padding: 20px;
+  font-size: 15px;
   line-height: 40px;
 }
 footer .social-link .icon {
@@ -265,5 +268,6 @@ footer .social-link .github-link:hover {
   }
   footer .social-link {
     padding: 20px 40px;
+    font-size: 12px;
   }
 }
